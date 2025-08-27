@@ -1,0 +1,2 @@
+# BeautifulRust
+Rust Code Appreciation
