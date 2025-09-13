@@ -6,7 +6,7 @@ pub enum Comparison {
     Unequal,
 }
 
-pub fn sublist<T:PartialEq>(a:&[T],b:&[T])->Comparison{
+pub fn sublist<T:PartialEq>(a:&[T],b:&[T])->Comparison {
     use Comparison::*;
     match(a.len(),b.len()){
         (0, 0)=>Equal,
